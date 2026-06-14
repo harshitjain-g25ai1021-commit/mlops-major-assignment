@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Face Recognition App</title>
+</head>
+
+<body>
+
+    <h2>Upload Face Image</h2>
+
+    <form method="POST" enctype="multipart/form-data">
+
+        <input type="file" name="file">
+
+        <br><br>
+
+        <input type="submit" value="Predict">
+
+    </form>
+
+    <br>
+
+    <h3>
+        Predicted Class : {{ prediction }}
+    </h3>
+
+</body>
+</html>
